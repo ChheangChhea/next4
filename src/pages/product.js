@@ -51,7 +51,7 @@ export default function product() {
             highlightOnHover
             subHeader
             subHeaderComponent={
-                <form class="d-flex float-end" role="search">
+                <form class="d-flex float-end" role="search" >
                     <input class="form-control me-2 float-end" type='text' onChange={(e)=>setData1(e.target.value)} ></input>
                     <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
